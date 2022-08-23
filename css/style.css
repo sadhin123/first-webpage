@@ -1,0 +1,74 @@
+/* universel selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+/* element/name selector */
+body{
+    background-color: rgb(85, 43, 43);
+}
+/* id selector */
+#admin-box{
+background-color: rgba(223, 180, 180, 0.877);
+color: black;
+text-align: center;
+width: 40%;
+margin: 5% auto;
+padding: 10px;
+border-radius: 13px;
+}
+/* class selector */
+.admin-img{
+width: 150px;
+}
+/* decendent selector */
+#admin-box h1{
+font-size: 40px;
+text-transform: uppercase;
+}
+/* grouping selector */
+input,
+label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+
+}
+input{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+label{
+    font-size: 20px
+}
+P{
+    font-size: 18px;
+}
+p a{
+    text-decoration: none;
+    color: rgb(85, 43, 43); 
+    text-transform: capitalize;
+}
+input:focus{
+    background-color: aqua;
+}
+input::placeholder{
+    color: black;
+}
+input[type="Submit"]{
+    background-color: rgb(104, 104, 219);
+    border: 1px solid rgb(104, 104, 219);
+    margin:20 auto;
+    width: 25%;
+
+    transition: ease-in-out 0.7s;
+}
+input[type="Submit"]hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
